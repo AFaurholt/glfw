@@ -23,11 +23,6 @@ project "GLFW"
 		"../Vulkan-Headers/include"
 	}
 
-	links
-	{
-		"vulkan"
-	}
-
 	filter "system:linux"
 		pic "On"
 
